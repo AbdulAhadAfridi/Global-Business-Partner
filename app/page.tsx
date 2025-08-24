@@ -80,6 +80,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
       <Header />
+      
 
       <div className="flex">
         <aside className="hidden lg:block w-64 bg-white border-r min-h-screen">
@@ -103,11 +104,22 @@ export default function HomePage() {
             </div>
           </div>
         </aside>
+        
+        
 
         {/* Main content */}
         <main className="flex-1">
           {/* Hero Section */}
+          {/*  Space for Our Main Banner */}
+        <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border-t">
+        <div className="container mx-auto px-2 sm:px-4 lg:px-6 py-4 text-center">
+          <p className="text-sm text-gray-600 animate-pulse">
+            Space for Our Main Banner
+          </p>
+        </div>
+      </div>
           <section className="bg-gradient-to-br from-primary/5 to-accent/5 py-16">
+          
             <div className="container mx-auto px-4">
               <div className="text-center max-w-4xl mx-auto">
                 <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">

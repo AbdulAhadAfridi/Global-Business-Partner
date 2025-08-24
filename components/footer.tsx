@@ -12,13 +12,13 @@ export function Footer() {
               <div className="h-8 w-8 rounded bg-primary flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-sm">B2B</span>
               </div>
-              <span className="font-bold text-xl">TradeHub</span>
+              <span className="font-bold text-xl">JodiaBazar</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Join the world's fastest growing B2B network. Connect with suppliers and buyers across 20+ industries.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-muted-foreground hover:text-primary">
+              <Link href="https://www.facebook.com/share/1EngqVbm1w/" className="text-muted-foreground hover:text-primary">
                 <Facebook className="h-5 w-5" />
               </Link>
               <Link href="#" className="text-muted-foreground hover:text-primary">
@@ -27,7 +27,7 @@ export function Footer() {
               <Link href="#" className="text-muted-foreground hover:text-primary">
                 <Linkedin className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-primary">
+              <Link href="https://www.instagram.com/global_businesspartner?igsh=MTN1eGw5b3ByOGNtaw==" className="text-muted-foreground hover:text-primary">
                 <Instagram className="h-5 w-5" />
               </Link>
             </div>
@@ -103,22 +103,22 @@ export function Footer() {
             <div className="space-y-2 text-sm">
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-muted-foreground" />
-                <span className="text-muted-foreground">support@tradehub.com</span>
+                <span className="text-muted-foreground">abdulahadafridi440.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-muted-foreground" />
-                <span className="text-muted-foreground">+1 (555) 123-4567</span>
+                <span className="text-muted-foreground">03128760904</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-muted-foreground" />
-                <span className="text-muted-foreground">123 Business Ave, Suite 100</span>
+                <span className="text-muted-foreground">Jodiabazar – Suite 100, 123 Business Ave, Karachi, Sindh</span>
               </div>
             </div>
           </div>
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; 2024 TradeHub. All rights reserved.</p>
+          <p>&copy; 2025 . JodiaBazar. All rights reserved.</p>
         </div>
       </div>
     </footer>
